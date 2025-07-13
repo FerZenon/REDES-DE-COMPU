@@ -73,8 +73,6 @@ El cableado estructurado se divide en seis subsistemas principales:
 ---
 
 ## 5. Tabla de Subsistemas (Mermaid)
-
-```mermaid
 graph TD
     A[Cableado Estructurado] --> B[Área de Trabajo]
     A --> C[Cableado Horizontal]
