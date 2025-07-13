@@ -80,5 +80,6 @@ graph TD
     A --> C[Cableado Horizontal]
     A --> D[Backbone (Cableado Vertical)]
     A --> E[Cuarto de Telecomunicaciones]
-    A --> F[Cuarto de Entrada]
-    A --> G[Cuarto de Equipos]
+    A --> F[Cuarto de Equipos]
+    A --> G[Cuarto de Entrada]
+```
