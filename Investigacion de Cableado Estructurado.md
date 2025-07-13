@@ -54,21 +54,21 @@ El cableado estructurado se divide en seis subsistemas principales:
 
 ### 4.1 Par Trenzado (TP)
 
-- **UTP**: Par trenzado sin blindaje
-- **STP**: Par trenzado con blindaje
+- **UTP**: Par trenzado sin blindaje  
+- **STP**: Par trenzado con blindaje  
 - **Categorías comunes**:
   - **Cat 5e**: Hasta 1 Gbps
   - **Cat 6**: Hasta 10 Gbps (corto alcance)
-  - **Cat 6a / Cat 7**: Mejor rendimiento y protección EMI
+  - **Cat 6a / Cat 7**: Mejor rendimiento y protección contra interferencias
 
 ### 4.2 Fibra Óptica
 
-- **Monomodo**: Larga distancia, un solo haz de luz
+- **Monomodo**: Larga distancia, un solo haz de luz  
 - **Multimodo**: Cortas distancias, múltiples trayectorias de luz
 
 ### 4.3 Coaxial
 
-- Usado anteriormente en redes locales, hoy más en TV por cable
+- Usado anteriormente en redes locales, hoy más común en TV por cable
 
 ---
 
