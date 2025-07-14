@@ -75,10 +75,28 @@ El cableado estructurado se divide en seis subsistemas principales:
 ## 5. Tabla de Subsistemas (Mermaid)
 
 ```mermaid
+%% Tabla de Subsistemas (Sirena) - Diagrama embellecido con colores
+
 graph TD
-    A[Cableado Estructurado] --> B[Área de Trabajo]
-    A --> C[Cableado Horizontal]
-    A --> D[Backbone (Cableado Vertical)]
-    A --> E[Cuarto de Telecomunicaciones]
-    A --> F[Cuarto de Equipos]
-    A --> G[Cuarto de Entrada]
+    %% Estilos personalizados para tipos de nodo
+    classDef estructura fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef trabajo fill:#bbf,stroke:#333,stroke-width:2px;
+    classDef backbone fill:#f96,stroke:#333,stroke-width:2px;
+    classDef cuartos fill:#cfc,stroke:#333,stroke-width:2px;
+
+    %% Definición de nodos con clases
+    A[Cableado Estructurado]:::estructura
+    B[Área de Trabajo]:::trabajo
+    C[Cableado Horizontal]:::estructura
+    D[Backbone - Cableado Vertical]:::backbone
+    E[Cuarto de Telecomunicaciones]:::cuartos
+    F[Cuarto de Equipos]:::cuartos
+    G[Cuarto de Entrada]:::cuartos
+
+    %% Conexiones jerárquicas
+    A --> B
+    A --> C
+    A --> D
+    A --> E
+    A --> F
+    A --> G
