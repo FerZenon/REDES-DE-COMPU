@@ -75,23 +75,23 @@ El cableado estructurado se divide en seis subsistemas principales:
 ## 5. Tabla de Subsistemas (Mermaid)
 
 ```mermaid
-%% Tabla de Subsistemas (Sirena) - Diagrama embellecido con colores
+%% Tabla de Subsistemas (Sirena) - Diagrama con texto en negrita y colores legibles
 
 graph TD
-    %% Estilos personalizados para tipos de nodo
-    classDef estructura fill:#f9f,stroke:#333,stroke-width:2px;
-    classDef trabajo fill:#bbf,stroke:#333,stroke-width:2px;
-    classDef backbone fill:#f96,stroke:#333,stroke-width:2px;
-    classDef cuartos fill:#cfc,stroke:#333,stroke-width:2px;
+    %% Estilos personalizados con fondos claros para que texto negro se vea
+    classDef estructura fill:#fffacd,stroke:#333,stroke-width:2px,color:#000;
+    classDef trabajo fill:#add8e6,stroke:#333,stroke-width:2px,color:#000;
+    classDef backbone fill:#ffdab9,stroke:#333,stroke-width:2px,color:#000;
+    classDef cuartos fill:#d0f0c0,stroke:#333,stroke-width:2px,color:#000;
 
-    %% Definición de nodos con clases
-    A[Cableado Estructurado]:::estructura
-    B[Área de Trabajo]:::trabajo
-    C[Cableado Horizontal]:::estructura
-    D[Backbone - Cableado Vertical]:::backbone
-    E[Cuarto de Telecomunicaciones]:::cuartos
-    F[Cuarto de Equipos]:::cuartos
-    G[Cuarto de Entrada]:::cuartos
+    %% Nodos con texto en negrita
+    A["**Cableado Estructurado**"]:::estructura
+    B["**Área de Trabajo**"]:::trabajo
+    C["**Cableado Horizontal**"]:::estructura
+    D["**Backbone - Cableado Vertical**"]:::backbone
+    E["**Cuarto de Telecomunicaciones**"]:::cuartos
+    F["**Cuarto de Equipos**"]:::cuartos
+    G["**Cuarto de Entrada**"]:::cuartos
 
     %% Conexiones jerárquicas
     A --> B
@@ -100,3 +100,4 @@ graph TD
     A --> E
     A --> F
     A --> G
+
