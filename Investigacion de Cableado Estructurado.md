@@ -82,4 +82,3 @@ graph TD
     A --> E[Cuarto de Telecomunicaciones]
     A --> F[Cuarto de Equipos]
     A --> G[Cuarto de Entrada]
-```
